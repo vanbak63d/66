@@ -1,6 +1,6 @@
 # ELT-3097-1-2020
 
-APP CÂU HỎI TRẮC NGHIỆM ĐỐ VUI - QUIZAPP
+**APP CÂU HỎI TRẮC NGHIỆM ĐỐ VUI - QUIZAPP**
 
 Giới thiệu:
 - Tạo một app android có nội dung giáo dục và giải trí, app gồm các câu hỏi trắc nghiệm đố vui
