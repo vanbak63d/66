@@ -3,12 +3,8 @@ package com.quizapp
 import com.quizapp.R
 import com.quizapp.Question
 
-// TODO (STEP 5: Create a Constants Object.)
-// START
 object Constants {
 
-    // TODO (STEP 6: Create a list of questions using the Question data model class. And add all the flag images to the drawable folder to add it in the list.)
-    // START
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
@@ -114,6 +110,4 @@ object Constants {
 
         return questionsList
     }
-    // END
 }
-// END

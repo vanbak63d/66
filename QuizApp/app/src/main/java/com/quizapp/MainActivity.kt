@@ -9,9 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    /**
-     * This function is auto created by Android when the Activity Class is created.
-     */
+
     override fun onCreate(savedInstanceState: Bundle?) {
         //This call the parent constructor
         super.onCreate(savedInstanceState)
@@ -21,8 +19,6 @@ class MainActivity : AppCompatActivity() {
         // To hide the status bar.
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        // TODO (STEP 3: Now validate name is entered or not and launch the QuizQuestion Activity.)
-        // START
         btn_start.setOnClickListener {
 
             if (et_name.text.toString().isEmpty()) {
@@ -35,7 +31,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
-            // END
         }
     }
 }
